@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, lazy, Suspense} from 'react';
+import Spinner from './components/spinner/spinner.component';
 
 const api = {
   key: "64983a533ca7d569f1af501a2d26810f",
