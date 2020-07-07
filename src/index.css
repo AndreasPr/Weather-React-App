@@ -17,16 +17,16 @@ main{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
 }
 
 .App.warm{
-  background-image: url('./assets/nice-weather.jpg');
+  background: url('./assets/nice-weather.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
 }
 .search-box{
   /* left: 50%;
